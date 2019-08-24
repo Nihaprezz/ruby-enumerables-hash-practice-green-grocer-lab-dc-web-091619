@@ -47,6 +47,6 @@ def checkout(cart, coupons)
   
   total = applied_discounts.reduce(0){ |acc, (key, value)| acc += value[:price] * value[:count]
   
-  
+  total > 100 ? 
   
 end
