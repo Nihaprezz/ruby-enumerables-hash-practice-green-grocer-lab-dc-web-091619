@@ -32,7 +32,7 @@ def apply_coupons(cart, coupons)
       end
     end
   end 
-  cart["AVOCADO W/COUPON"][:clearance] = true
+
   cart
 end
 
