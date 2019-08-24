@@ -45,4 +45,6 @@ def checkout(cart, coupons)
   applied_coupons = apply_coupons(hash_cart, coupons)
   applied_discounts = apply_clearance(applied_coupons)
   
+  total = 
+  
 end
